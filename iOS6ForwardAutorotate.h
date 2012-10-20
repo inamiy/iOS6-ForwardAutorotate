@@ -7,5 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+
 #import "UINavigationController+iOS6ForwardAutorotate.h"
 #import "UITabBarController+iOS6ForwardAutorotate.h"
+#import "UIImagePickerController+iOS6Portrait.h"
