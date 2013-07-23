@@ -1,5 +1,5 @@
 //
-//  UIImagePickerController+iOS6Portrait.h
+//  UIImagePickerController+iOS6Orientation.h
 //  iOS6ForwardAutorotate
 //
 //  Created by Yasuhiro Inami on 2012/10/20.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIImagePickerController (iOS6Portrait)
+@interface UIImagePickerController (iOS6Orientation)
 
 @end

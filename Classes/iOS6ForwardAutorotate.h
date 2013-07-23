@@ -10,4 +10,5 @@
 
 #import "UINavigationController+iOS6ForwardAutorotate.h"
 #import "UITabBarController+iOS6ForwardAutorotate.h"
-#import "UIImagePickerController+iOS6Portrait.h"
+
+#import "UIImagePickerController+iOS6Orientation.h"

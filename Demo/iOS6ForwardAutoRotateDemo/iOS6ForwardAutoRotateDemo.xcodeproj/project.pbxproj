@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4807E295179E6A0600A02418 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4807E294179E6A0600A02418 /* UIKit.framework */; };
+		4807E297179E6A0600A02418 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4807E296179E6A0600A02418 /* Foundation.framework */; };
+		4807E299179E6A0600A02418 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4807E298179E6A0600A02418 /* CoreGraphics.framework */; };
+		4807E29F179E6A0600A02418 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4807E29D179E6A0600A02418 /* InfoPlist.strings */; };
+		4807E2A1179E6A0600A02418 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4807E2A0179E6A0600A02418 /* main.m */; };
+		4807E2A5179E6A0600A02418 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4807E2A4179E6A0600A02418 /* AppDelegate.m */; };
+		4807E2A7179E6A0600A02418 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4807E2A6179E6A0600A02418 /* Default.png */; };
+		4807E2A9179E6A0600A02418 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4807E2A8179E6A0600A02418 /* Default@2x.png */; };
+		4807E2AB179E6A0600A02418 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4807E2AA179E6A0600A02418 /* Default-568h@2x.png */; };
+		4807E2AE179E6A0600A02418 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4807E2AC179E6A0600A02418 /* MainStoryboard_iPhone.storyboard */; };
+		4807E2B1179E6A0600A02418 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4807E2AF179E6A0600A02418 /* MainStoryboard_iPad.storyboard */; };
+		4807E2B4179E6A0600A02418 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4807E2B3179E6A0600A02418 /* FirstViewController.m */; };
+		4807E2B6179E6A0600A02418 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 4807E2B5179E6A0600A02418 /* first.png */; };
+		4807E2B8179E6A0600A02418 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4807E2B7179E6A0600A02418 /* first@2x.png */; };
+		4807E2BB179E6A0600A02418 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4807E2BA179E6A0600A02418 /* SecondViewController.m */; };
+		4807E2BD179E6A0600A02418 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 4807E2BC179E6A0600A02418 /* second.png */; };
+		4807E2BF179E6A0600A02418 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4807E2BE179E6A0600A02418 /* second@2x.png */; };
+		4807E2CD179E6A2C00A02418 /* UIImagePickerController+iOS6Orientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4807E2C8179E6A2C00A02418 /* UIImagePickerController+iOS6Orientation.m */; };
+		4807E2CE179E6A2C00A02418 /* UINavigationController+iOS6ForwardAutorotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4807E2CA179E6A2C00A02418 /* UINavigationController+iOS6ForwardAutorotate.m */; };
+		4807E2CF179E6A2C00A02418 /* UITabBarController+iOS6ForwardAutorotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4807E2CC179E6A2C00A02418 /* UITabBarController+iOS6ForwardAutorotate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4807E291179E6A0600A02418 /* iOS6ForwardAutoRotateDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS6ForwardAutoRotateDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4807E294179E6A0600A02418 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4807E296179E6A0600A02418 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4807E298179E6A0600A02418 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4807E29C179E6A0600A02418 /* iOS6ForwardAutoRotateDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS6ForwardAutoRotateDemo-Info.plist"; sourceTree = "<group>"; };
+		4807E29E179E6A0600A02418 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4807E2A0179E6A0600A02418 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4807E2A2179E6A0600A02418 /* iOS6ForwardAutoRotateDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS6ForwardAutoRotateDemo-Prefix.pch"; sourceTree = "<group>"; };
+		4807E2A3179E6A0600A02418 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4807E2A4179E6A0600A02418 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4807E2A6179E6A0600A02418 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4807E2A8179E6A0600A02418 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4807E2AA179E6A0600A02418 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4807E2AD179E6A0600A02418 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		4807E2B0179E6A0600A02418 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		4807E2B2179E6A0600A02418 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		4807E2B3179E6A0600A02418 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		4807E2B5179E6A0600A02418 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		4807E2B7179E6A0600A02418 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		4807E2B9179E6A0600A02418 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		4807E2BA179E6A0600A02418 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		4807E2BC179E6A0600A02418 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		4807E2BE179E6A0600A02418 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		4807E2C6179E6A2C00A02418 /* iOS6ForwardAutorotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOS6ForwardAutorotate.h; sourceTree = "<group>"; };
+		4807E2C7179E6A2C00A02418 /* UIImagePickerController+iOS6Orientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImagePickerController+iOS6Orientation.h"; sourceTree = "<group>"; };
+		4807E2C8179E6A2C00A02418 /* UIImagePickerController+iOS6Orientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImagePickerController+iOS6Orientation.m"; sourceTree = "<group>"; };
+		4807E2C9179E6A2C00A02418 /* UINavigationController+iOS6ForwardAutorotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+iOS6ForwardAutorotate.h"; sourceTree = "<group>"; };
+		4807E2CA179E6A2C00A02418 /* UINavigationController+iOS6ForwardAutorotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+iOS6ForwardAutorotate.m"; sourceTree = "<group>"; };
+		4807E2CB179E6A2C00A02418 /* UITabBarController+iOS6ForwardAutorotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+iOS6ForwardAutorotate.h"; sourceTree = "<group>"; };
+		4807E2CC179E6A2C00A02418 /* UITabBarController+iOS6ForwardAutorotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+iOS6ForwardAutorotate.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4807E28E179E6A0600A02418 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4807E295179E6A0600A02418 /* UIKit.framework in Frameworks */,
+				4807E297179E6A0600A02418 /* Foundation.framework in Frameworks */,
+				4807E299179E6A0600A02418 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4807E288179E6A0600A02418 = {
+			isa = PBXGroup;
+			children = (
+				4807E2C5179E6A2C00A02418 /* Classes */,
+				4807E29A179E6A0600A02418 /* iOS6ForwardAutoRotateDemo */,
+				4807E293179E6A0600A02418 /* Frameworks */,
+				4807E292179E6A0600A02418 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4807E292179E6A0600A02418 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4807E291179E6A0600A02418 /* iOS6ForwardAutoRotateDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4807E293179E6A0600A02418 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4807E294179E6A0600A02418 /* UIKit.framework */,
+				4807E296179E6A0600A02418 /* Foundation.framework */,
+				4807E298179E6A0600A02418 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4807E29A179E6A0600A02418 /* iOS6ForwardAutoRotateDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4807E2A3179E6A0600A02418 /* AppDelegate.h */,
+				4807E2A4179E6A0600A02418 /* AppDelegate.m */,
+				4807E2AC179E6A0600A02418 /* MainStoryboard_iPhone.storyboard */,
+				4807E2AF179E6A0600A02418 /* MainStoryboard_iPad.storyboard */,
+				4807E2B2179E6A0600A02418 /* FirstViewController.h */,
+				4807E2B3179E6A0600A02418 /* FirstViewController.m */,
+				4807E2B5179E6A0600A02418 /* first.png */,
+				4807E2B7179E6A0600A02418 /* first@2x.png */,
+				4807E2B9179E6A0600A02418 /* SecondViewController.h */,
+				4807E2BA179E6A0600A02418 /* SecondViewController.m */,
+				4807E2BC179E6A0600A02418 /* second.png */,
+				4807E2BE179E6A0600A02418 /* second@2x.png */,
+				4807E29B179E6A0600A02418 /* Supporting Files */,
+			);
+			path = iOS6ForwardAutoRotateDemo;
+			sourceTree = "<group>";
+		};
+		4807E29B179E6A0600A02418 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4807E29C179E6A0600A02418 /* iOS6ForwardAutoRotateDemo-Info.plist */,
+				4807E29D179E6A0600A02418 /* InfoPlist.strings */,
+				4807E2A0179E6A0600A02418 /* main.m */,
+				4807E2A2179E6A0600A02418 /* iOS6ForwardAutoRotateDemo-Prefix.pch */,
+				4807E2A6179E6A0600A02418 /* Default.png */,
+				4807E2A8179E6A0600A02418 /* Default@2x.png */,
+				4807E2AA179E6A0600A02418 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4807E2C5179E6A2C00A02418 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4807E2C6179E6A2C00A02418 /* iOS6ForwardAutorotate.h */,
+				4807E2C7179E6A2C00A02418 /* UIImagePickerController+iOS6Orientation.h */,
+				4807E2C8179E6A2C00A02418 /* UIImagePickerController+iOS6Orientation.m */,
+				4807E2C9179E6A2C00A02418 /* UINavigationController+iOS6ForwardAutorotate.h */,
+				4807E2CA179E6A2C00A02418 /* UINavigationController+iOS6ForwardAutorotate.m */,
+				4807E2CB179E6A2C00A02418 /* UITabBarController+iOS6ForwardAutorotate.h */,
+				4807E2CC179E6A2C00A02418 /* UITabBarController+iOS6ForwardAutorotate.m */,
+			);
+			name = Classes;
+			path = ../../Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4807E290179E6A0600A02418 /* iOS6ForwardAutoRotateDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4807E2C2179E6A0600A02418 /* Build configuration list for PBXNativeTarget "iOS6ForwardAutoRotateDemo" */;
+			buildPhases = (
+				4807E28D179E6A0600A02418 /* Sources */,
+				4807E28E179E6A0600A02418 /* Frameworks */,
+				4807E28F179E6A0600A02418 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS6ForwardAutoRotateDemo;
+			productName = iOS6ForwardAutoRotateDemo;
+			productReference = 4807E291179E6A0600A02418 /* iOS6ForwardAutoRotateDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4807E289179E6A0600A02418 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Yasuhiro Inami";
+			};
+			buildConfigurationList = 4807E28C179E6A0600A02418 /* Build configuration list for PBXProject "iOS6ForwardAutoRotateDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4807E288179E6A0600A02418;
+			productRefGroup = 4807E292179E6A0600A02418 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4807E290179E6A0600A02418 /* iOS6ForwardAutoRotateDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4807E28F179E6A0600A02418 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4807E29F179E6A0600A02418 /* InfoPlist.strings in Resources */,
+				4807E2A7179E6A0600A02418 /* Default.png in Resources */,
+				4807E2A9179E6A0600A02418 /* Default@2x.png in Resources */,
+				4807E2AB179E6A0600A02418 /* Default-568h@2x.png in Resources */,
+				4807E2AE179E6A0600A02418 /* MainStoryboard_iPhone.storyboard in Resources */,
+				4807E2B1179E6A0600A02418 /* MainStoryboard_iPad.storyboard in Resources */,
+				4807E2B6179E6A0600A02418 /* first.png in Resources */,
+				4807E2B8179E6A0600A02418 /* first@2x.png in Resources */,
+				4807E2BD179E6A0600A02418 /* second.png in Resources */,
+				4807E2BF179E6A0600A02418 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4807E28D179E6A0600A02418 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4807E2A1179E6A0600A02418 /* main.m in Sources */,
+				4807E2A5179E6A0600A02418 /* AppDelegate.m in Sources */,
+				4807E2B4179E6A0600A02418 /* FirstViewController.m in Sources */,
+				4807E2BB179E6A0600A02418 /* SecondViewController.m in Sources */,
+				4807E2CD179E6A2C00A02418 /* UIImagePickerController+iOS6Orientation.m in Sources */,
+				4807E2CE179E6A2C00A02418 /* UINavigationController+iOS6ForwardAutorotate.m in Sources */,
+				4807E2CF179E6A2C00A02418 /* UITabBarController+iOS6ForwardAutorotate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4807E29D179E6A0600A02418 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4807E29E179E6A0600A02418 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4807E2AC179E6A0600A02418 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4807E2AD179E6A0600A02418 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		4807E2AF179E6A0600A02418 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4807E2B0179E6A0600A02418 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4807E2C0179E6A0600A02418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4807E2C1179E6A0600A02418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4807E2C3179E6A0600A02418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS6ForwardAutoRotateDemo/iOS6ForwardAutoRotateDemo-Prefix.pch";
+				INFOPLIST_FILE = "iOS6ForwardAutoRotateDemo/iOS6ForwardAutoRotateDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4807E2C4179E6A0600A02418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS6ForwardAutoRotateDemo/iOS6ForwardAutoRotateDemo-Prefix.pch";
+				INFOPLIST_FILE = "iOS6ForwardAutoRotateDemo/iOS6ForwardAutoRotateDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4807E28C179E6A0600A02418 /* Build configuration list for PBXProject "iOS6ForwardAutoRotateDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4807E2C0179E6A0600A02418 /* Debug */,
+				4807E2C1179E6A0600A02418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4807E2C2179E6A0600A02418 /* Build configuration list for PBXNativeTarget "iOS6ForwardAutoRotateDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4807E2C3179E6A0600A02418 /* Debug */,
+				4807E2C4179E6A0600A02418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4807E289179E6A0600A02418 /* Project object */;
+}
