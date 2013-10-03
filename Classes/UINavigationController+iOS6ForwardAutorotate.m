@@ -12,17 +12,17 @@
 
 - (BOOL)shouldAutorotate
 {
-    return [self.viewControllers.lastObject shouldAutorotate];
+    return [self.visibleViewController shouldAutorotate];
 }
 
 - (NSUInteger)supportedInterfaceOrientations
 {
-    return [self.viewControllers.lastObject supportedInterfaceOrientations];
+    return [self.visibleViewController supportedInterfaceOrientations];
 }
 
 - (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation
 {
-    return [self.viewControllers.lastObject preferredInterfaceOrientationForPresentation];
+    return [self.visibleViewController preferredInterfaceOrientationForPresentation];
 }
 
 @end
